@@ -1,0 +1,39 @@
+<html>
+    <head>
+    <title>Desain Web</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div style="float: left;">DAPOER SASAK LOMBOK</div>
+                <div class ="Menu" style="float:right">
+                    <a href="home.html">home</a>
+                    <a href="transaksi.html">Transaksi</a>
+                    <a href="tambahFoto.html">Tambah Foto</a>
+                </div>  
+            </div>
+            <div class="middle">
+                <h3>Hitung Transaksi</h3>
+                <form method="post" action="Transaksi.php">
+                    <label> Pembeli &emsp;&emsp;&emsp;&ensp; : </label><input type="text" name="nama"><br><br>
+                    <label> Status Pembeli &emsp; :  </label><select name="status">
+                        <option>Member</option>
+                        <option>Non-Member</option> </select>
+                    <br><br>
+                    <label>Menu &emsp;&emsp;&emsp;&emsp;&ensp; : </label><select name="menu">
+                        <option>Paket 1</option>
+                        <option>Paket 2</option>
+                        <option>Paket 3</option> </select>
+                    <br><br>
+                    <label> Jumlah &emsp;&emsp;&emsp;&emsp;: </label> <input type="number" name="jumlah"><br><br>
+                    <input type="submit" name="HITUNG" value="HITUNG">  
+                </form>
+            </div>
+
+            <div class="footer">
+                <p href="copyright @ belajar CSS">Jl. Ketara Sengkol, Kecamatan Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Barat. 83573 (087865863703)</p>
+            </div>
+        </div>
+    </body>
+</html>
